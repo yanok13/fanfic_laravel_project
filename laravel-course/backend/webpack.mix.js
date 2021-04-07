@@ -11,6 +11,14 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
+ mix.js([
+    'resources/js/bootstrap.js',
+    'resources/js/app.js'
+    ], 'public/assets/js/app.js')
     .vue()
-    .sass('resources/sass/app.scss', 'public/css');
+    .styles('resources/css/welcome.css','public/css/app.css')
+    //.sass('resources/sass/app.scss', 'public/css/bootstrap.css')
+    .sass('resources/sass/app.scss', 'public/css')
+    .options({
+        processCssUrls: false,
+    });
