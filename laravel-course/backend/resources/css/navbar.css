@@ -1,0 +1,41 @@
+.navbar-menu {
+    background-color: #faf5ea;
+    font-size: 16px;
+    font-weight: 500;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 0px; 
+}
+
+.flex {
+    display: flex;
+}
+
+.navbar-menu ul {
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.navbar-menu ul li {
+    padding-right: 20px;
+}
+
+.navbar-menu ul a {
+    padding: 5px;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: #88704f;
+}
+
+.navbar-menu ul a:hover {
+    color: #030200;
+}
+.navbar-menu .social-links div{
+    padding-right: 20px;
+}
+
+.navbar-menu .social-links a:hover {
+    color: #030200;
+}

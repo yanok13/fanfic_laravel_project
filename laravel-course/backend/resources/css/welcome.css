@@ -1,25 +1,149 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
 body {
     font-family: 'Nunito', sans-serif;
 }
+
+/* header */
 .header-block {
     background-color: #4f2d01;
     padding: 20px 0px;
 }
+
 .flex {
     display: flex;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
 }
+
 ul li {
     padding: 5px;
 }
+
 a {
     text-decoration: underline;
     color: #fff;
 }
+
 ul a:hover {
     text-decoration: none;
     color: #fff;
+}
+
+/* content */
+/* .content {
+    min-height: 300px;
+    background-color: #f6ecda;
+} */
+
+/* footer */
+.footer-block {
+    background-color: #4f2d01;
+    padding: 40px 0px;
+}
+
+.bottom-menu {
+    align-items: center;
+}
+
+.nav-footer {
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+ul li {
+    padding: 5px;
+}
+
+a {
+    text-decoration: underline;
+    color: #fff;
+}
+
+ul a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social a {
+    text-align: center;
+}
+
+.social-links {
+    align-items: flex-start ;
+}
+
+.social-links div{
+    padding-right: 20px;
+}
+
+.social-links a:hover {
+    color: #fff;
+}
+
+.copyright {
+    text-align: center;
+    color: #c69e6b;
+}
+
+.marg-bot-null {
+    margin-bottom: 0;
+}
+
+/* mission pages */
+.block-mission {
+    background-color: #f6ecda;
+    color: #27150e;
+    padding: 25px 0px;
+}
+
+/* personal-policy */
+.personal-policy {
+    background-color: #f6ecda;
+    color: #27150e;
+    padding: 25px 0px;
+}
+
+.personal-policy ol {
+    list-style: none;
+    counter-reset: li;
+}
+
+.personal-policy li::before {
+    counter-increment: li;
+    content: counters(li, ".") ". ";
+}
+
+.personal-policy ol li {
+    padding: 10px 0px;
+}
+
+/* terms-use */
+.block-term-use {
+    background-color: #f6ecda;
+    color: #27150e;
+    padding: 25px 0px;
+    font-size: 16px;
+}
+
+.block-term-use ol {
+    list-style: none;
+    counter-reset: li;
+}
+
+.block-term-use li::before {
+    counter-increment: li;
+    content: counters(li, ".") ". ";
+    font-weight: 600;
+}
+
+.block-term-use ol li {
+    padding: 10px 0px;
 }

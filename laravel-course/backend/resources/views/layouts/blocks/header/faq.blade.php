@@ -1,4 +1,5 @@
-@include('layouts.blocks.header.header')
+@yield('header', view('layouts.blocks.header.header'))
+@yield('navbar', view('layouts.navbar'))
 <div class="faq-page">
     <div class="container">
         <h1>Вопросы и ответы (FAQ)</h1>
@@ -112,4 +113,4 @@
         </div>
     </div>
 </div>
-    
+@yield('footer', view('layouts.blocks.footer.footer'))    

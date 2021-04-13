@@ -19,6 +19,8 @@ const mix = require('laravel-mix');
     .styles([
         'resources/css/welcome.css',
         'resources/css/faq.css',
+        'resources/css/regulations.css',
+        'resources/css/navbar.css',
     ],'public/css/app.css')
     //.sass('resources/sass/app.scss', 'public/css/bootstrap.css')
     .sass('resources/sass/app.scss', 'public/css')
