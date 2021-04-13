@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::view('/faq', 'layouts.faq');
+Route::view('/faq', 'layouts.blocks.header.faq');
 
 Auth::routes();
 
