@@ -13,7 +13,7 @@
                 </h2>
                 <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
-                    <p>Фанфик — история, написанная поклонниками любого произведения (например, фильма, сериала или книги), в которой используются персонажи, мир и другие элементы этого произведения. За подробностями проследуйте в <a href="https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%BD%D1%84%D0%B8%D0%BA">википедию</a>.</p>
+                    <p>Фанфик — история, написанная поклонниками любого произведения (например, фильма, сериала или книги), в которой используются персонажи, мир и другие элементы этого произведения. За подробностями проследуйте в <a href="https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%BD%D1%84%D0%B8%D0%BA" class="text-primary">википедию</a>.</p>
                 </div>
                 </div>
             </div>
@@ -26,7 +26,7 @@
                 </h2>
                 <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
-                    <p>«Книга Фанфиков» — сайт, созданный для того, чтобы авторам фанфиков и читателям было проще найти друг друга. Каждый может выставить у нас свою работу и прочитать тысячи текстов, выставленных другими. У сайта также есть <a href="/mission">миссия</a>, которой создатели и пользователи стараются придерживаться.</p>
+                    <p>«Книга Фанфиков» — сайт, созданный для того, чтобы авторам фанфиков и читателям было проще найти друг друга. Каждый может выставить у нас свою работу и прочитать тысячи текстов, выставленных другими. У сайта также есть <a href="/mission" class="text-primary">миссия</a>, которой создатели и пользователи стараются придерживаться.</p>
                 </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@
                 <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
                     <p>Не нужно переживать, с этим сталкивается каждый начинающий читатель и писатель. Щелкните на непонятный термин, чтобы увидеть подсказку.</p>
-                    <p>На нашем канале на YouTube есть замечательная серия роликов «<a href="https://www.youtube.com/watch?v=f13Xv9ZV4XQ&list=PLPWUraAalXkewkXzSpKLOAokA3A3yOOih">Поясни за термин</a>», которая весело и интересно рассказывает об основных терминах.</p>
+                    <p>На нашем канале на YouTube есть замечательная серия роликов «<a href="https://www.youtube.com/watch?v=f13Xv9ZV4XQ&list=PLPWUraAalXkewkXzSpKLOAokA3A3yOOih" class="text-primary">Поясни за термин</a>», которая весело и интересно рассказывает об основных терминах.</p>
                 </div>
                 </div>
             </div>

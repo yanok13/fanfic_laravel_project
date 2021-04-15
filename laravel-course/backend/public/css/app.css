@@ -18,7 +18,6 @@ ul {
     list-style-type: none;
     margin: 0;
 }
-
 ul li {
     padding: 5px;
 }
@@ -32,12 +31,6 @@ ul a:hover {
     text-decoration: none;
     color: #fff;
 }
-
-/* content */
-/* .content {
-    min-height: 300px;
-    background-color: #f6ecda;
-} */
 
 /* footer */
 .footer-block {
@@ -53,21 +46,21 @@ ul a:hover {
     justify-content: space-evenly;
 }
 
-ul {
+.nav-footer ul {
     list-style-type: none;
     flex-wrap: wrap;
 }
 
-ul li {
+.nav-footer ul li {
     padding: 5px;
 }
 
-a {
+.nav-footer a {
     text-decoration: underline;
     color: #fff;
 }
 
-ul a:hover {
+.nav-footer ul a:hover {
     text-decoration: none;
     color: #fff;
 }
