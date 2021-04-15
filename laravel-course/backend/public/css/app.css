@@ -140,44 +140,6 @@ ul a:hover {
 .block-term-use ol li {
     padding: 10px 0px;
 }
-
-/* content fanfic */
-.home {
-    background-color: #f6ecda;
-    color: #27150e;
-    padding: 25px 0px;
-    font-size: 16px;
-}
-
-.books-list {
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.book-one {
-    margin-bottom: 30px;
-    padding: 15px 20px;
-    background-color: #faf5ea;
-    max-width: 530px;
-}
-
-.book-title {
-    font-size: 18px;
-    font-weight: bold;
-    padding: 5px 0px;
-}
-
-.book-avtor {
-    padding: 5px 0px;
-}
-
-.book-fandom {
-    padding: 5px 0px;
-}
-
-.book-description {
-    padding: 5px 0px;
-}
 .faq-page {
     background-color: #f6ecda;
     color: #876d49;
