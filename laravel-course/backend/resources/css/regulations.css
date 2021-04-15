@@ -1,0 +1,62 @@
+.regulation-page {
+    background-color: #f6ecda;
+    color: #27150e;
+    padding: 25px 0px;
+    font-size: 18px;
+}
+.head-bord {
+    border-bottom: 1px dotted #27150e;
+}
+.flex {
+    display: flex;
+}
+/* list-ok */
+.list-ok {
+    padding: 0;
+    list-style: none;
+}
+.list-ok li {
+    padding: 20px 10px;
+}
+.list-ok .list-style {
+    align-items: center;
+}
+.list-ok .list-style:before {
+    padding-right: 10px;
+    font-weight: bold;
+    color: #0f9605;
+    content: "\2714";
+    transition-duration: 0.5s;
+}
+.list-ok .list-style:hover::before {
+    color: #086e00;
+    content: "\2714";
+}
+.marg-not {
+    margin-bottom: 0;
+}
+/* list-not-ok */
+.list-not-ok {
+    padding: 0;
+    list-style: none;
+}
+.list-not-ok li {
+    padding: 20px 10px;
+}
+.list-not-ok .list-style-not {
+    align-items: center;
+}
+.list-not-ok .list-style-not::before {
+    padding-right: 10px;
+    font-weight: bold;
+    color: #e2131e;
+    content: "\2716";
+    transition-duration: 0.5s;
+}
+.list-not-ok .list-style-not:hover::before {
+    color: #e2131e;
+    content: "\2716";
+}
+.list-interior li {
+    padding: 5px;
+}
